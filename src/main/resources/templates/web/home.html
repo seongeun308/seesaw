@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <link href="../css/bootstrap.min.css"
+          th:href="@{/css/bootstrap.min.css}" rel="stylesheet">
+    <style>
+        .container {
+            max-width: 560px;
+        }
+    </style>
+    <title>seesaw</title>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <header>
+                <nav class="lead">
+                    <div>
+                        <ul class="nav">
+                            <li><a href="#">영화</a></li>
+                            <li><a href="#">모음집</a></li>
+                            <li><a href="#">모집글</a></li>
+                            <li>
+                                <div>
+                                    <div>
+                                        <form>
+                                            <label>
+                                                <input placeholder="제목, 감독명, 배우명을 검색해보세요." type="text" name="searchKeyword">
+                                                <div><span aria-label="clear" role="button"></span></div>
+                                            </label>
+                                        </form>
+                                    </div>
+                                </div>
+                            </li>
+                            <li><button class="accordion-button">로그인</button></li>
+                            <li><button class="accordion-button">회원가입</button></li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+        </div>
+
+        <div>
+            <section>
+                <div>
+                    <ul>
+                        <li>
+                            <a title="#" href="#"></a>
+                                <div><img src="" alt=""></div>
+                                <div>
+                                    <div class="">30일</div>
+                                    <div>2022/한국</div>
+                                    <div>
+                                        <span>평균</span>
+                                        <span>3.3</span>
+                                    </div>
+                                </div>
+                        </li>
+                        <li>
+                            <a title="#" href="#"></a>
+                            <div><img src="" alt=""></div>
+                            <div>
+                                <div>30일</div>
+                                <div>2022/한국</div>
+                                <div>
+                                    <span>평균</span>
+                                    <span>3.3</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a title="#" href="#"></a>
+                            <div><img src="" alt=""></div>
+                            <div>
+                                <div>30일</div>
+                                <div>2022/한국</div>
+                                <div>
+                                    <span>평균</span>
+                                    <span>3.3</span>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+            </section>
+        </div>
+
+        <div>
+            <footer>
+
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
